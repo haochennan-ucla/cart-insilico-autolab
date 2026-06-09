@@ -1,0 +1,13 @@
+{
+  "mode": "step3_one_central_hypothesis",
+  "model": "gpt-4o-mini",
+  "input_paper_count": 170,
+  "central_hypothesis_count": 1,
+  "candidate_arm_count": 5,
+  "missing_candidate_arms": [],
+  "validation_status": "passed",
+  "output_dir": "artifacts/03_central_hypothesis",
+  "llm_calls": "artifacts/03_central_hypothesis/llm_calls.jsonl",
+  "parsed_output": "artifacts/03_central_hypothesis/central_hypothesis_output.json",
+  "papers_to_download": "artifacts/03_central_hypothesis/papers_to_download_before_parameterization.tsv"
+}

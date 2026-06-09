@@ -1,0 +1,17 @@
+# local/generated/heavy files
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+*.egg-info/
+outputs/
+dist/
+offline_release/
+*.pdf
+*.docx
+*.exe
+*.o
+*.dll
+*.so
+*.zip

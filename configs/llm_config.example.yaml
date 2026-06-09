@@ -1,0 +1,16 @@
+provider: none
+mode: deterministic
+model: null
+temperature: 0
+seed: 1729
+save_raw_responses: true
+schema_validation: true
+max_retries: 2
+api_key_env: OPENAI_API_KEY
+base_url: https://api.openai.com/v1
+notes: >
+  The real default workflow uses an OpenAI-compatible LLM provider when
+  configured. The deterministic safe demo does not require an LLM key.
+  Allowed providers are none, mock, and openai_compatible. Mock responses
+  are software fixtures for tests only. Executable LLM calls save
+  prompt-response audit artifacts.
